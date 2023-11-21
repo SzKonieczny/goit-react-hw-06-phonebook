@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Formik } from 'formik';
 import { Button, FormUs, Input, LabelIn } from './phonebookFrom.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { addMyContact, getContacts } from 'redux/sliceContacts';
+import { addMyContact, getContacts } from '..//..//redux/spliceContacts';
 import { nanoid } from 'nanoid';
 
 const initialValues = {
